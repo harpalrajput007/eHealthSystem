@@ -1,0 +1,17 @@
+USER
+
+http://localhost:3000/api/auth/register
+http://localhost:3000/api/auth/login
+http://localhost:3000/api/auth/update
+Authorization: Bearer YOUR_TOKEN
+Content-Type: application/json
+http://localhost:3000/api/auth/delete
+Authorization: Bearer YOUR_TOKEN
+
+
+token : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIsInVzZXJuYW1lIjoidGVzdHVzZXIiLCJpYXQiOjE3NjI1MDU3NzR9.YbwOvYJ7h0MgYhXmbjYfKfrxAwSw4hMR5oj4jvBMAvw
+
+
+REPORT
+http://localhost:3000/api/reports
+Authorization: Bearer YOUR_TOKEN_HERE
